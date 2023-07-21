@@ -1,267 +1,292 @@
-/* font */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@300;400;600;800&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
 
+<style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@300;400;600;800&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+
+</style>* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.navber {
-    width: auto;
-    height: 100px;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-}
-
-.container {
-
-    width: 1440px;
-    margin: 0 auto;
-    height: 100px;
 
 
-}
+.
 
-/* nav area start */
-.nav-area {
-
-
-    display: flex;
-    justify-content: space-between;
-
-
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-}
-
-.logo-img {
-    width: 25%;
-}
-
-.brand-color {
+/* nav section */
+.p-color {
     color: #FF42A5;
 }
 
-.logo h2 {
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 45px;
-    font-weight: 700;
-    padding: 10px 20px;
+.nav {
+    width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
 }
 
+.site-width {
+    margin: 0 auto;
+    width: 1440px;
+
+}
+.p-color{
+    color: #FF42A5;
+}
+.logo h2{text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.logo,
 .menu {
-    justify-content: center;
     display: flex;
     align-items: center;
 
-}
-
-.menu>li {
-    list-style: none;
-    color: #3C354F;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 10px 20px;
-}
-
-.nav-menu {
-    border-radius: 8px;
-    width: 262px;
-    height: 56px;
-    text-align: center;
-    font-size: 20px;
 
 }
 
-i{
-    padding: 10px;
-    color: #B152DA;
-    margin: 0px;
+.logo-img {
+    padding-right: 20px;
 }
 
-/* nav area ends */
-
-/* banner-section */
-.banner-content {
-    display: grid;
-   
-    margin-top: 80px;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    text-align: left;
- 
-
+.menu li {
+    list-style-type: none;
+    padding-right: 50px;
 }
 
-.banner-content p{
-    margin: 10px 0px;
-    padding: 0px;
-    color: #534C64;
-font-family: Work Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-
-
-.banner-section {
+.follow-us {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 30px;
+    border-radius: 10px;
+    border: none;
+}
 
+i {
+    padding: 0px 10px;
+    font-size: 15px;
+}
 
+.fa-solid {
+    color: red;
+}
+
+.header-container {
+
+    width: 100%;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 
 }
 
+/* banner-area */
+.banner {
 
-.banner-main {
+    width: auto;
     background-image: url('../images/Group 14.png');
-    align-items: left;
     background-position: left;
     background-repeat: no-repeat;
-    height: 700px;
-
-
 }
 
-.goat-gradiant {
-    margin: 0px;
-    font-size: 95px;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+.banner-content
+ {
 
-.banner-h1{
-    margin-top:20px;
-    margin-bottom: 0px;
-    padding: 0px;
-    font-size: 52px;
-}
-
-.banner-icon {
-    text-decoration: none;
-    color: #534C64;
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-weight: 500;
-
-}
-
-.btn-primary ,.btn{
-    background-color: #FF42A5;
-    padding: 21px 40px;
-    border-radius: 48px;
-    border: none;
-    color: white;
-}
-.btn-secondary{
-    background-color: #4EC5F7;
-    padding: 20px 0px;
-    border-radius: 48px;
-    border: none;
-  
-}
-.btn{
-width:30% ;
-color: white;
-border: none;
-margin-right: 20px;
-margin-top: 20px;
-}
-
-
-.we-gamer{
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    height: 600px;
-}
-
-.we-are-gamer{
-    align-items: center;
- 
-    align-items: c;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    
 
+    justify-content: center;
 }
-.gamer-content{
-    text-align: right;
+
+.banner-content p {
+
+    margin: 10px 0px;
 }
-.gamer{
+
+.goat {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    margin: 20px 0px;
 }
 
+.h1-primary {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    font-feature-settings: ;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
 
-/* :hover */
-
-.video  {
+.btn{
     display: flex;
     gap: 20px;
 }
-.OG{
-    text-align: center;
-    margin: 50px 0px;
+.btn-primary{
+    color: white;
+    padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+background-color: #FF42A5;
+border: none;
+border-radius: 48px;
+}
+.btn-secondary{
+   background-color: #4EC5F7;
+   color: white;
 }
 
-.image-container {
+.banner-container,
+.we-gamer-container {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-img {
+    width: auto;
+    display: flex;
+
+
+}
+
+
+
+.gamer-content p {
+    color: #534C64;
+
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+.we-are-gamer{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-content {
+text-align: right;  
+}
+.we-gamer-container{
+    align-items: center;
+   
+}
+
+.gamer-content h1{
+    margin: 0;
+}
+
+.gamer-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.gamer-btn{
+    color: white;
+    padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+background-color: #FF42A5;
+border: none;
+border-radius: 48px;
+width: 50%;
+
+}
+
+.gamer-h1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.unleash{
+    color: #534C64;
+font-family: Work Sans;
+    font-size: 60px;
+    font-family: Work Sans;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+}
+.unleash{
+    color: #534C64;
+font-family: Work Sans;
+    margin: 10px 0px
+}
+
+.funny-videos{
+    text-align: center;
+}
+.image-hover-main{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+ 
+}
+
+.image-one{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
     position: relative;
-    display: inline-block;
-    overflow: hidden;
-  }
-  
-  .image-container img {
-    width: 100%;
-
-  }
-  
-  .overlay {
-    position: absolute;
-
     
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+}
+
+ 
+.f-content{
+    margin: 40px 0px;
+}
+
+
+.hover-content{
+    color: white;
+    border-radius: 20px;
+width: auto;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     opacity: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    transition: opacity 0.3s ease;
-  }
-  
-  .icon {
-    font-size: 30px;
-    color: #fff;
-    margin-bottom: 10px;
-  }
-  
-  .text {
-    color: #fff;
-    font-size: 18px;
-  }
-  
-  .image-container:hover .overlay {
+    transition: ease .3s;
+
+
+}
+
+.hover-content:hover{
     opacity: 1;
-  }
+}
 
- 
+.funny-content{
+    display: flex;
+    gap: 20px;
+}
 
-
-
-
-/* media query MoB Device */
-@media screen and {}
+.funny-content-one{
+    text-align: left;
+    width: 100%;
+    padding: 20px 20px 20px 0px;
+}
