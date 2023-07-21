@@ -1,10 +1,10 @@
-
 <style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:wght@300;400;600;800&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
 
 </style>* {
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -37,15 +37,18 @@ body {
     width: 1440px;
 
 }
-.p-color{
+
+.p-color {
     color: #FF42A5;
 }
-.logo h2{text-align: center;
-font-family: Work Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+
+.logo h2 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
 }
 
@@ -101,12 +104,11 @@ i {
     background-repeat: no-repeat;
 }
 
-.banner-content
- {
+.banner-content {
 
     display: flex;
     flex-direction: column;
-    
+
 
     justify-content: center;
 }
@@ -136,22 +138,24 @@ i {
     margin-top: 0;
 }
 
-.btn{
+.btn {
     display: flex;
     gap: 20px;
 }
-.btn-primary{
+
+.btn-primary {
     color: white;
     padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-background-color: #FF42A5;
-border: none;
-border-radius: 48px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #FF42A5;
+    border: none;
+    border-radius: 48px;
 }
-.btn-secondary{
-   background-color: #4EC5F7;
-   color: white;
+
+.btn-secondary {
+    background-color: #4EC5F7;
+    color: white;
 }
 
 .banner-container,
@@ -177,19 +181,22 @@ border-radius: 48px;
     font-size: 18px;
     font-weight: 400;
 }
-.we-are-gamer{
+
+.we-are-gamer {
     width: 100%;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
+
 .gamer-content {
-text-align: right;  
-}
-.we-gamer-container{
-    align-items: center;
-   
+    text-align: right;
 }
 
-.gamer-content h1{
+.we-gamer-container {
+    align-items: center;
+
+}
+
+.gamer-content h1 {
     margin: 0;
 }
 
@@ -198,74 +205,78 @@ text-align: right;
     flex-direction: column;
 }
 
-.gamer-btn{
+.gamer-btn {
     color: white;
     padding: 21px 40px;
-align-items: flex-start;
-gap: 10px;
-background-color: #FF42A5;
-border: none;
-border-radius: 48px;
-width: 50%;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #FF42A5;
+    border: none;
+    border-radius: 48px;
+    width: 50%;
 
 }
 
-.gamer-h1{
+.gamer-h1 {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.unleash{
+.unleash {
     color: #534C64;
-font-family: Work Sans;
+    font-family: Work Sans;
     font-size: 60px;
     font-family: Work Sans;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
 }
-.unleash{
+
+.unleash {
     color: #534C64;
-font-family: Work Sans;
+    font-family: Work Sans;
     margin: 10px 0px
 }
 
-.funny-videos{
+.funny-videos {
     text-align: center;
 }
-.image-hover-main{
+
+.image-hover-main {
     gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
- 
+
 }
 
-.image-one{
+.image-one {
     border-radius: 20px;
     display: flex;
     justify-content: center;
     position: relative;
-    
+
 }
 
- 
-.f-content{
+
+.f-content {
     margin: 40px 0px;
 }
 
 
-.hover-content{
+.hover-content {
     color: white;
     border-radius: 20px;
-width: auto;
+    width: auto;
     background-color: rgba(0, 0, 0, .8);
     position: absolute;
-    top: 0; bottom: 0;
-    left: 0; right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,17 +287,153 @@ width: auto;
 
 }
 
-.hover-content:hover{
+.hover-content:hover {
     opacity: 1;
 }
 
-.funny-content{
+.funny-content {
     display: flex;
     gap: 20px;
 }
 
-.funny-content-one{
+.funny-content-one {
     text-align: left;
     width: 100%;
     padding: 20px 20px 20px 0px;
+}
+
+/* instant section */
+
+.instant-contents {
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instant-text {
+    width: 35%;
+}
+
+.instant-container {
+    margin-bottom: 200px;
+}
+
+.instant-img {}
+
+.large-img {}
+
+.small-img-one {
+    width: 300px;
+}
+
+.small-img {
+
+    position: relative;
+    margin: -150px;
+}
+
+
+
+/* Careers */
+.career-section {
+    background-color: #FF42A5;
+    width: 100%;
+}
+
+.career-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career-h1 {
+    color: white;
+
+
+}
+.career-text{
+
+}
+
+.career-text p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    font-family: sans-serif;
+}
+
+.experties {
+    justify-content: space-between;
+    display: flex;
+    color: white;
+}
+
+.experties li {
+    list-style: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.experties-two {
+    text-align: right;
+
+}
+.career-img{
+    width: 100%;
+}
+.btn-white{
+    background-color: white;
+    color: #FF42A5;
+}
+
+/* games-types */
+
+
+.game-types{
+    padding: 100px 0px;
+    display: flex;
+ flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;justify-content: center;
+}
+.game-name{
+
+    background-color: white;
+    display: flex;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+    
+    justify-content: center;
+    
+
+
+}
+.game-name p{
+    padding-left: 20px;
+}
+.all-games{
+    background-color: #FFF9FC;
+    width: 100%;
+}
+.game-name:hover{
+    
+    border: 1px solid #FF55AE;
+}
+
+/* footer */
+.footer-container{
+    background-color: #0B0223;
+    width: 100%;
 }
