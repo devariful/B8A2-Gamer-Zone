@@ -401,6 +401,7 @@ i {
 
 
 .game-types{
+
     padding: 100px 0px;
     display: flex;
  flex-wrap: wrap;
@@ -437,3 +438,38 @@ i {
     background-color: #0B0223;
     width: 100%;
 }
+.game-types-container{
+    height: 420px;
+
+}
+
+.footer-cont{
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container li {
+    list-style: none;
+    display: inline;
+padding: 20px;
+}
+
+.nav-menu,.social-icon,.policies{
+    margin: 30px;
+}
+
+.footer-cont i{
+    font-size: 2em;
+}
+
+
+.footer-cont p{
+    margin-bottom: 50px;
+}
+
+
+
