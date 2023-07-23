@@ -487,6 +487,8 @@ i {
 
 
 @media screen and (max-width:476px){
+    *{margin: 0;
+        padding:0}
    
     .nav{
         width: 476px;
@@ -577,23 +579,35 @@ i {
             }
        
         .all-games{
-            height: 100%;
+
         }
         .footer-cont{
             height: 100%;
             max-width: 476px;
-            justify-content: center;
-            align-items: center;
+
+
+
+        }
+        .game-types-container,.footer-container{
             height: 100%;
+            max-width:476px;
         }
 
         .nav-menu,.social-icon{
             width: 476px;
             display: grid;
-            grid-template-columns: auto;
+            grid-template-columns: repeat(3, 3fr);
+           
      
         }
         .policies{
             display: grid;
+            grid-template-columns: repeat(2, 60px);
+      
+
+
+                }
+                .footer-cont p{
+                    width: 476px;
                 }
 }
