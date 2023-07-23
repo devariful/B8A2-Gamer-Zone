@@ -16,6 +16,7 @@ body {
 .
 
 /* nav section */
+
 .p-color {
     color: #FF42A5;
 }
@@ -96,16 +97,12 @@ i {
 }
 
 /* banner-area */
-.banner {
 
-    width: auto;
-    background-image: url('../images/Group 14.png');
-    background-position: left;
-    background-repeat: no-repeat;
-}
 
 .banner-content {
-
+    width: 100%;
+    margin: 50px;
+    width: auto;
     display: flex;
     flex-direction: column;
 
@@ -157,9 +154,16 @@ i {
     background-color: #4EC5F7;
     color: white;
 }
+.banner-container{
+    height: 600px;
+    background-image: url('../images/Group 14.png');
+    background-position: left;
+    background-repeat: no-repeat;
 
+}
 .banner-container,
 .we-gamer-container {
+    
     height: 600px;
     display: flex;
     justify-content: space-between;
@@ -353,9 +357,8 @@ i {
 
 
 }
-.career-text{
 
-}
+.career-text {}
 
 .career-text p {
     color: #FFF;
@@ -389,10 +392,12 @@ i {
     text-align: right;
 
 }
-.career-img{
+
+.career-img {
     width: 100%;
 }
-.btn-white{
+
+.btn-white {
     background-color: white;
     color: #FF42A5;
 }
@@ -400,50 +405,56 @@ i {
 /* games-types */
 
 
-.game-types{
+.game-types {
 
     padding: 100px 0px;
     display: flex;
- flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 30px;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
-.game-name{
+
+.game-name {
 
     background-color: white;
     display: flex;
     border: none;
     border-radius: 50px;
     padding: 5px 20px;
-    
+
     justify-content: center;
-    
+
 
 
 }
-.game-name p{
+
+.game-name p {
     padding-left: 20px;
 }
-.all-games{
+
+.all-games {
     background-color: #FFF9FC;
     width: 100%;
 }
-.game-name:hover{
-    
+
+.game-name:hover {
+
     border: 1px solid #FF55AE;
 }
 
 /* footer */
-.footer-container{
+.footer-container {
     background-color: #0B0223;
     width: 100%;
 }
-.game-types-container{
+
+.game-types-container {
     height: 420px;
 
 }
 
-.footer-cont{
+.footer-cont {
     font-family: sans-serif;
     color: white;
     display: flex;
@@ -455,21 +466,134 @@ i {
 .footer-container li {
     list-style: none;
     display: inline;
-padding: 20px;
+    padding: 20px;
 }
 
-.nav-menu,.social-icon,.policies{
+.nav-menu,
+.social-icon,
+.policies {
     margin: 30px;
 }
 
-.footer-cont i{
+.footer-cont i {
     font-size: 2em;
 }
 
 
-.footer-cont p{
+.footer-cont p {
     margin-bottom: 50px;
 }
 
 
 
+@media screen and (max-width:476px){
+   
+    .nav{
+        width: 476px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-container {
+
+        height:100%;
+        max-width: 476px;
+        box-shadow: none;
+    
+    
+    }
+    .menu{
+               max-width: 476px;
+        flex-direction: column;
+
+    }
+    .menu li{
+        padding: 20px 0px;
+    }
+
+    .banner-container{
+        background-image: none;
+        flex-direction: column-reverse;
+        height: 100%;
+        max-width: 476px;
+        justify-content: center;
+    }
+    .banner-content{
+        height: 100%;
+        max-width: 476px;
+        justify-content: center;
+
+    }
+
+
+    .banner-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .we-gamer-container {
+        max-width: 476px;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .we-are-gamer{
+
+    align-items: center;margin: 20px 0px;
+    }
+    .gamer-content{
+        text-align: center;
+    }
+
+    .image-hover-main{
+        max-width: 476px;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .funny-content{
+        display: none;
+    }  
+    .f-content{
+        text-align: center;
+        max-width: 476px;
+    }
+    .funny-videos{text-align: center;
+    }
+    .instant-contents,.career-container{
+        height: 100%;
+       max-width: 476px;
+        text-align: center;
+        flex-direction: column;
+    }
+        .c-img img{
+            width: 100%;
+        }
+        .game-types
+            {
+                flex-direction: column;
+                width: 476px;
+            }
+       
+        .all-games{
+            height: 100%;
+        }
+        .footer-cont{
+            height: 100%;
+            max-width: 476px;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .nav-menu,.social-icon{
+            width: 476px;
+            display: grid;
+            grid-template-columns: auto;
+     
+        }
+        .policies{
+            display: grid;
+                }
+}
